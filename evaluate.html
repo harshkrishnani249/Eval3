@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="evaluate.css">
+</head>
+
+<body>
+  <div class="testing">
+    <form class="formstyling" id="myform" action="datadisplay.html">
+      <label for="fname">First Name</label><br>
+      <input type="text" id="fname" name="fname" size="" height="23">
+      <br>
+      <br>
+      <span id="usererror" class="text-danger font-weight-bold"></span>
+      <br>
+      <label for="lname">Last Name</label><br>
+      <input type="text" id="lname" name="lname">
+      <br>
+      <br>
+      <span id="lnameerror" class="text-danger font-weight-bold"></span>
+      <br>
+      <label for="email">Enter your email:</label>
+      <br>
+      <input type="email" id="email" name="email" placeholder="123@gmail.com">
+      <br>
+      <br>
+      <span id="emailerror" class="text-danger font-weight-bold"></span>
+      <br>
+
+      <label for="age">Enter Your age</label><br>
+      <input type="text" id="age" name="age">
+      <br>
+      <br>
+      <span id="ageerror" class="text-danger font-weight-bold"></span>
+      <br>
+      <input type="checkbox" id="agree" name="Next Day Configuration" value="yes">
+      <label for="agree">Next Day Configuration</label>
+      <br>
+      <br>
+      <div class="star" id="pay">
+
+        <input type="checkbox" id="terms" class="checkboxes">
+        <label for="terms">Sunday</label>
+        <select id="title" name="Sunday" style="margin-left: 26%;" disabled="disabled">
+          <option value="">-Select Pick-up Time-</option>
+          <option value="00:00">00:00</option>
+          <option value="01:00">01:00</option>
+          <option value="02:00">02:00</option>
+          <option value="03:00">03:00</option>
+          <option value="04:00">04:00</option>
+          <option value="05:00">05:00</option>
+          <option value="06:00">06:00</option>
+          <option value="07:00">07:00</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+        <br>
+      </div>
+      <div class="star" id="pay">
+
+        <input type="checkbox" id="harsh" class="checkboxes">
+        <label for="harsh">Monday</label>
+        <select id="raj" name="Monday" style="margin-left: 25%;" disabled="disabled">
+          <option value="">-Select Pick-up Time-</option>
+          <option value="00:00">00:00</option>
+          <option value="01:00">01:00</option>
+          <option value="02:00">02:00</option>
+          <option value="03:00">03:00</option>
+          <option value="04:00">04:00</option>
+          <option value="05:00">05:00</option>
+          <option value="06:00">06:00</option>
+          <option value="07:00">07:00</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+        <br>
+      </div>
+      <div class="star" id="pay">
+        <input type="checkbox" id="tue" class="checkboxes">
+        <label for="tue">Tuesday</label>
+        <select id="tuetry" name="Tuesday" style="margin-left: 25%;" disabled="disabled">
+          <option value="">-Select Pick-up Time-</option>
+          <option value="00:00">00:00</option>
+          <option value="01:00">01:00</option>
+          <option value="02:00">02:00</option>
+          <option value="03:00">03:00</option>
+          <option value="04:00">04:00</option>
+          <option value="05:00">05:00</option>
+          <option value="06:00">06:00</option>
+          <option value="07:00">07:00</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+        <br>
+      </div>
+      <div class="star" id="pay">
+        <input type="checkbox" id="wed" class="checkboxes">
+        <label for="wed">Wednesday</label>
+        <select id="wedtry" name="Wednesday" style="margin-left: 19%;" disabled="disabled">
+          <option value="">-Select Pick-up Time-</option>
+          <option value="00:00">00:00</option>
+          <option value="01:00">01:00</option>
+          <option value="02:00">02:00</option>
+          <option value="03:00">03:00</option>
+          <option value="04:00">04:00</option>
+          <option value="05:00">05:00</option>
+          <option value="06:00">06:00</option>
+          <option value="07:00">07:00</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+        <br>
+      </div>
+      <div class="star" id="pay">
+
+        <input type="checkbox" id="thurs" class="checkboxes">
+        <label for="thurs">Thursday</label>
+        <select id="thurstry" name="Thursday" style="margin-left: 23%;" disabled="disabled">
+          <option value="">-Select Pick-up Time-</option>
+          <option value="00:00">00:00</option>
+          <option value="01:00">01:00</option>
+          <option value="02:00">02:00</option>
+          <option value="03:00">03:00</option>
+          <option value="04:00">04:00</option>
+          <option value="05:00">05:00</option>
+          <option value="06:00">06:00</option>
+          <option value="07:00">07:00</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+        <br>
+      </div>
+      <div class="star" id="pay">
+        <input type="checkbox" id="fri" class="checkboxes">
+        <label for="fri">Friday</label>
+        <select id="fritry" name="Friday" style="margin-left: 29%;" disabled="disabled">
+          <option value="">-Select Pick-up Time-</option>
+          <option value="00:00">00:00</option>
+          <option value="01:00">01:00</option>
+          <option value="02:00">02:00</option>
+          <option value="03:00">03:00</option>
+          <option value="04:00">04:00</option>
+          <option value="05:00">05:00</option>
+          <option value="06:00">06:00</option>
+          <option value="07:00">07:00</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+        <br>
+      </div>
+      <div class="star" id="pay">
+        <input type="checkbox" id="sat" class="checkboxes">
+        <label for="sat">Saturday</label>
+        <select id="sattry" name="Saturday" style="margin-left: 25%;" disabled="disabled">
+          <option value="">-Select Pick-up Time-</option>
+          <option value="00:00">00:00</option>
+          <option value="01:00">01:00</option>
+          <option value="02:00">02:00</option>
+          <option value="03:00">03:00</option>
+          <option value="04:00">04:00</option>
+          <option value="05:00">05:00</option>
+          <option value="06:00">06:00</option>
+          <option value="07:00">07:00</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+      </div>
+      <div class="s1"> <button type="submit" class="z1" onclick="passvalue()">Submit</button></div>
+
+    </form>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="evaluate.js"></script>
+  </div>
+</body>
+
+</html>
